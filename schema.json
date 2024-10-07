@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "Posterior-Mean Rectified Flow: Towards Minimum MSE Photo-Realistic Image Restoration",
+      "author": "Guy Ohayon, Tomer Michaeli, Michael Elad",
+      "code": "https://github.com/ohayonguy/PMRF",
+      "paper": "https://arxiv.org/abs/2410.00418",
+      "page": "https://pmrf-ml.github.io/",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/pmrf.ipynb",
+      "tags": [
+        "Image to Image"
+      ],
+      "widget": "readme"
+    },
+    "upload": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "input_image_check"
+    },
+    "input_image_check": {
+      "type": "string",
+      "description": "Input Image URL",
+      "widget": "textarea"
+    },
+    "scale": {
+      "type": "number",
+      "description": "Scale"
+    },
+    "num_flow_steps": {
+      "type": "number",
+      "description": "Num Flow Steps"
+    },
+    "aligned": {
+      "type": "boolean",
+      "description": "Aligned"
+    },
+    "randomize_seed": {
+      "type": "boolean",
+      "description": "Randomize Seed"
+    },
+    "seed": {
+      "type": "number",
+      "description": "Seed"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://fakeimg.pl/512x512/282828/eae0d0/?text=input#.png",
+      "image2": "https://files.catbox.moe/9usfou.png",
+      "image3": "https://fakeimg.pl/512x512/282828/eae0d0/?text=output#.png",
+      "image4": "https://files.catbox.moe/ol5gwi.png",
+      "video_aspect_ratio": "100%",
+      "widget": "example"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}

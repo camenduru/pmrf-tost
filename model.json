@@ -1,0 +1,8 @@
+{
+    "input_image_check": "https://files.catbox.moe/9usfou.png",
+    "scale": 1,
+    "num_flow_steps": 25,
+    "aligned": true,
+    "randomize_seed": false,
+    "seed": 42
+}
